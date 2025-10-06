@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Makeup Artist — Landing</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* All the CSS code from the next section would be placed here. */
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="logo" href="#">
+        <div class="logo-badge">M</div>
+        <div>
+          <div style="font-weight:700">Makeup Studio</div>
+          <div style="font-size:12px;color:var(--muted)">Professional Beauty & Looks</div>
+        </div>
+      </a>
+
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#gallery">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="#contact">Book Now</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-left">
+          <h1 id="hero-title">Professional Makeup for Every Occasion — Natural Beauty, Expert Touch</h1>
+          <p class="lead">Bridal, Photography, and private session makeup and grooming. Online booking, free consultation, and real portfolios.</p>
+
+          <div class="cta-row">
+            <a class="btn" href="#contact">Book a Session</a>
+            <a class="secondary" href="#gallery">View Portfolio</a>
+          </div>
+
+          <div class="services" id="services" style="margin-top:22px">
+            <div class="card">
+              <div style="font-size:12px;color:var(--accent);font-weight:700">Bridal</div>
+              <h3>Bridal Makeup</h3>
+              <p>Complete wedding makeup and grooming package, including testing and maintaining a natural look.</p>
+            </div>
+            <div class="card">
+              <div style="font-size:12px;color:var(--accent);font-weight:700">Glam</div>
+              <h3>Event Makeup</h3>
+              <p>Evening and party makeup with long wear and studio-friendly lighting techniques.</p>
+            </div>
+            <div class="card">
+              <div style="font-size:12px;color:var(--accent);font-weight:700">Consult</div>
+              <h3>Beauty Consultation</h3>
+              <p>Skin planning, product recommendations, and tips for maintaining everyday makeup.</p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Studio View">
+          <div class="studio-image" role="img" aria-label="Studio Photo"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+            <div>
+              <div class="meta">60 Minute Session</div>
+              <div class="price">From $40</div>
+            </div>
+            <div style="text-align:right">
+              <div style="font-size:13px;color:var(--muted)">Top Rated</div>
+              <div style="font-weight:700">★★★★★</div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+    <section id="gallery"> 
+    <div class="gallery" aria-label="Gallery of Samples">
+        <div class="g" style="background-image:url('images/photo1.jpg');"></div>
+        <div class="g" style="background-image:url('images/photo2.jpg');"></div>
+        <div class="g" style="background-image:url('images/photo3.jpg');"></div>
+        <div class="g" style="background-image:url('images/photo4.jpg');"></div>
+    </div>
+</section>
+
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <div class="info">
+          <h3 id="contact-title">Contact & Information</h3>
+          <p class="meta" style="margin-top:6px">Studio address, working hours, and short description. Fill out the form or call to book.</p>
+
+          <ul style="margin-top:12px;padding-left:18px;color:var(--muted)">
+            <li>Address: Pakistan, HazaraTown</li>
+            <li>Hours: Monday to Friday 10:00am — 10:00pm</li>
+            <li>Phone: +92</li>
+          </ul>
+
+          <div style="margin-top:12px" class="testimonials">
+            <div class="quote">"Truly professional — the makeup stayed perfect and flawless until the end of the night." — Fatemeh</div>
+          </div>
+        </div>
+
+        <form aria-label="Contact Form">
+          <label>
+            Name
+            <input type="text" placeholder="Your Name" required>
+          </label>
+
+          <label>
+            Email or Phone
+            <input type="email" placeholder="Email or Contact Number" required>
+          </label>
+
+          <label>
+            Message / Session Details
+            <textarea placeholder="e.g., date, type of makeup, questions..."></textarea>
+          </label>
+
+          <button class="submit">Send Request</button>
+        </form>
+      </section>
+
+      <footer>
+        <div>© 2025 Makeup Studio. All rights reserved.</div>
+        <div style="display:flex;gap:12px;align-items:center">
+          <div style="font-size:13px;color:var(--muted)">Follow</div>
+          <div style="display:flex;gap:8px">
+            <a href="#" style="text-decoration:none;color:var(--muted)">Instagram</a>
+            <a href="#" style="text-decoration:none;color:var(--muted)">Telegram</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
